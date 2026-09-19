@@ -2,8 +2,7 @@ import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
 import reviewRoutes from './routes/reviews.js';
-import userRoutes from './routes/users.js';
-
+import userRoutes from './routes/users.js'; 
 const app = express();
 
 app.use(morgan('dev'));
